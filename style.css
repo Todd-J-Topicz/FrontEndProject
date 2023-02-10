@@ -1,0 +1,115 @@
+body {
+    background-image: url("https://wallpaper.dog/large/10809462.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+  }
+  
+  #main {
+    width: 750px;
+    background-color: rgba(0,255,0,0.5);
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #results {
+    width: 710px;
+    background-image: linear-gradient(black, gray);
+    margin: 0;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+h1{
+  color: whitesmoke;
+  font-family: "Bahnschrift";
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+
+h2{
+  font-size: 7px;
+  color:whitesmoke;
+}
+
+.result-game {
+ margin-bottom: 130px;
+ border: 2px solid whitesmoke;
+}
+
+
+.screen_shot {
+  transition: 0.7s width ease-in-out;
+}
+
+.screen_shot:hover {
+  width:700px;
+}
+
+.steam_buy {
+  border-color: whitesmoke;
+  border-width: 2px;
+  border-radius: 20%;
+  background-color: black;
+  color: green;
+  margin: 8px;
+  font-size: 20px;
+  transition: 0.7s width ease-in-out;
+}
+
+.steam_buy:hover{
+  width:150px;
+}
+
+
+#submit {
+  border-color: whitesmoke;
+  border-width: 2px;
+  border-radius: 20%;
+  background-color: black;
+  color: whitesmoke;
+}
+
+
+.screen_shot_select {
+  border-color: whitesmoke;
+  border-width: 2px;
+  border-radius: 20%;
+  background-color: black;
+  color: green;
+  margin: 8px;
+  font-size: 20px;
+  transition: 0.7s width ease-in-out;
+}
+
+.screen_shot_select:hover {
+  width:130px;
+}
+
+.back_button {
+  border-color: whitesmoke;
+  border-width: 2px;
+  border-radius: 10%;
+  background-color: black;
+  color: green;
+  margin: 8px;
+  font-size: 20px;
+}
+
+.platformLogo{
+  margin: 10px;
+  border-style: double;
+  border-color: whitesmoke;
+  border-radius: 10px;
+  border-width: 5px;
+  transition: 0.4s width ease-in-out;
+}
+
+.platformLogo:hover {
+  width:150px;
+}
